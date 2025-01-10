@@ -21,4 +21,4 @@ popd
 sleep 1
 
 cd rest-simple-pay-quarkus-server
-docker-compose down
+docker compose down
