@@ -1,10 +1,9 @@
-version: "3"
 services:
   quarkus-app:
     build:
       context: .
       dockerfile: src/main/docker/Dockerfile
-    image: quarkus-app
-    container_name: quarkus-app
+    image: bank-simple-dtupay
+    container_name: bank-simple-dtupay
     ports:
       - "8080:8080"
