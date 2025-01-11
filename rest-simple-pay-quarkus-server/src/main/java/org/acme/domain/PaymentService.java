@@ -33,8 +33,10 @@ public class PaymentService {
       Customer customer = customerService.getCustomer(payment.customerId());
       Merchant merchant = merchantService.getMerchant(payment.merchantId());
 
-
-      bankService.transferMoneyFromTo(customer.bankAccountNo(), merchant.bankAccountNo(), BigDecimal.valueOf(payment.amount()), "fee");
+      bankService.transferMoneyFromTo(customer.bankAccountNo(),
+                                       merchant.bankAccountNo(),
+                                       BigDecimal.valueOf(payment.amount()),
+                           "fee");
       payments.add(payment);
    }
 }

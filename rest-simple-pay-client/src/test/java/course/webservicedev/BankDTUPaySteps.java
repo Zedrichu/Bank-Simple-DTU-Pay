@@ -17,6 +17,13 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class BankDTUPaySteps {
+
+//   private TestSuiteData testSuiteData;
+//
+//   public BankDTUPaySteps(TestSuiteData testSuiteData) {
+//      this.testSuiteData = testSuiteData;
+//   }
+
    private Customer customer;
    private Merchant merchant;
    private String customerId, merchantId, customerId2, merchantId2;
