@@ -1,5 +1,5 @@
 # OpenJDK runtime base image
-FROM eclipse-temurin:23 as jre-build
+FROM eclipse-temurin:23 AS jre-build
 # Set working directory inside container
 WORKDIR /usr/src
 COPY target/quarkus-app /usr/src/quarkus-app
