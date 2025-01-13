@@ -12,7 +12,7 @@ Feature: Payment
     And the balance of the merchant at the bank is 1010 kr
 
   Scenario: List of Payments
-    Given a user with name "Sussane", last name "Baldwin", and CPR "030154-4427"
+    Given a user with name "Sussane", last name "Caroll", and CPR "030154-4499"
     And the user is registered with the bank and an initial balance of 1000 kr
     And the user is registered as a customer with Simple DTU Pay using their bank account
     And a user with name "Daniel", last name "Oliverson", and CPR "131161-3049"
